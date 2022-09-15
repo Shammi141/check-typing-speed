@@ -87,6 +87,10 @@ body {
 .red {
   color: #eb6565;
 }
+.gap-of-history-time{
+  margin-left: 8px;
+  margin-right: 8px;
+}
 .bold {
   font-weight: 700;
 }
@@ -192,13 +196,10 @@ button {
 }
 
 
-@media only screen and (min-width: 1000px){
-  
-  .card{
-    float: left;
-    padding: 10px;
-    width: 31%;
-    height: 200px;
-    margin-bottom: 15px;
+@media only screen and (min-width: 1025px){
+  #histories{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
   }
 }
